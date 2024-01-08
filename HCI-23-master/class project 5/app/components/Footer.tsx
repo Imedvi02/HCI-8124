@@ -15,7 +15,7 @@ const Footer = () => {
     <section className='bg-[#e7ecf4]'>
       <div className='flex flex-row justify-center md:flex-row  text-[#051d41]'>
 
-        <div className=' flex flex-row p-8 items-center text-[14px] md:p-8'>
+        <div className=' flex flex-wrap flex-row p-8 items-center text-[14px] md:p-8'>
           {footerItems.map((item) => (
             <div className="p-3" key={item.id}>
               <Link className="font-medium p-8" href={item.link}>{item.name}</Link>

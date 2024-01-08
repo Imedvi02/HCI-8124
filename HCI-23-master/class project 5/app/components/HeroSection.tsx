@@ -13,10 +13,10 @@ const Hero = () => {
       <div style={{ backgroundImage: 'url(../assets/background.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>   
           <Header />
           <div className='p-2 md:p-20 text-white'>
-            <div className='text-[32px] md:text-[48px] font-bold text-[#e09721]'>
+            <div className='text-[36px] md:text-[48px] font-bold text-[#e09721]'>
                 <p>Dobrodošli!</p>
             </div>
-            <div className='pt-3 md:pt-12 text-[22px] md:text-[22px] text-left font-medium'>
+            <div className='pt-3 md:pt-12 text-[20px] md:text-[22px] text-left font-medium'>
                 <p>Zapeo si s učenjem? Propustio predavanja i sad ne znaš kako dalje? <br /> 
                 Ova stranica je prava za tebe! Drobrodošli na mjesto gdje ćete pronaći <br />
                 sve materijale koji su potrebni za uspješno studiranje na Fakultetu elektrotehnike,<br/> 
@@ -24,7 +24,7 @@ const Hero = () => {
                 </p>
             </div>
             <div className='pt-6 pb-0 md:pt-6'>
-              <button className='my-4 md:my-10 pl-4 md:pl-8 pr-4 md:pr-8 py-0 md:py-4 bg-[#e09721] rounded-lg text-[#062757] text-[22px] 
+              <button className='my-4 md:my-10 pl-4 md:pl-8 pr-4 md:pr-8 py-0 md:py-4 bg-[#e09721] rounded-lg text-[#062757] text-[20px] 
               hover: bg-[#c7861e] hover:text-white font-semibold'>
                 Moj profil</button>
             
@@ -35,11 +35,11 @@ const Hero = () => {
         <div className='p-4 md:p-20 text-[#062757]'>
           <div className='flex flex-col md:flex-row justify-between pb-4 md:pb-6'>
             <div className='md:w-1/2'>
-              <p className='text-[24px] md:text-[48px] font-semibold max-sm:text-[22px]'>
+              <p className='text-[36px] md:text-[48px] font-semibold max-sm:text-[36px]'>
                 Odaberi svoj<br /><span className='text-[#e09721]'>STUDIJ</span>
               </p>
 
-            <p className='font-bold mt-3 text-[22px] '>Potrudili smo se postaviti materijale za sve! Pronađi predmete
+            <p className='font-bold mt-3 text-[20px] md:text-[22px]'>Potrudili smo se postaviti materijale za sve! Pronađi predmete
             koji ti trebaju grupirane po studiju i semestru. 😊</p>
 
 

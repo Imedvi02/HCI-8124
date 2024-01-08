@@ -54,6 +54,11 @@ const userExperience = [
         name: "Outlook",
         link: "https://outlook.live.com/mail/about/index_en.html?nlp=1"    
     },
+    {
+        id: 12,
+        name: "Studomat",
+        link: "https://www.isvu.hr/studomat/hr/prijava"    
+    },
 ]
 
 export default userExperience
